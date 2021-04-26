@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+
+  input{
+    -webkit-appearance: none;
+    appearance: none;
+  
+    width: 200px;
+    border: 1px solid #333;
+  
+    box-sizing: border-box;
+    
+  }
+
+  input:invalid{
+    border-color: #900;
+    background-color: #FDD;
+  }
+
+  .error {
+    position: absolute;
+    width: 200px;
+    padding: 0;
+  
+    font-size: 80%;
+    color: rgb(255, 255, 255);
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+  
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    white-space: pre-line;
+  }
+
+
+.error.active {
+  padding: 0.3em;
+  width: 200px;
+}
